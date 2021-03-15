@@ -1,30 +1,197 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-    <head>
-        <meta charset="UTF-8">
-        <title>Portfólio Barrisenn Gonçalo</title>
-    </head>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet" media="all">
-    <body>
-        <h1>Barrisenn Gonçalo De Araújo</h1>
-        <img id="barrisenn" src="images/Barrisenn.jpg" width="200px" alt="Foto de Barrisenn Gonçalo">
-            <p class="descricao"><a href="#barrisenn" class="hyperlink"><strong><em></em>Foto</strong></em></a>
-            escolhida por ser recente e trazer a minha pessoa em uma imagem: Paz, amor, humildade e caridade!</p>
-            
-        
-        <h2>Índice</h2>
-            <ol>
-                <li><a href="#sobreMim" class="hyperlink">Sobre mim</a></li>
-                <li><a href="#principaisHabilidades" class="hyperlink">Principais habilidades</a></li>
-                <li><a href="#interests" class="hyperlink">Interesses pessoais</a></li>
-            </ol>
-        
-        <h3 id="sobreMim">Quem sou EU!</h3>
-            <p>Brasileiro nascido em 1984, cidade do RJ, capital, e por meu ser Pai militar, mudava de 2 em 2 anos e hoje resido em PE. Desde muito novo me deparei com tecnologia bem remotas atualmente, citando o MS-DOS e Win 3.1. Foram meus primeiros contatos com linhas de comandos e SO. Tenho como objetivo me tornar um desenvolvedor de excelencia atraves dos aprendizados dados pela TRYBE, e também com muito esforço e dedicação,<strong>transformar a vida das pessoas!</strong>Sou formado em Administração com PÓS-GRADUAÇÃO EM GESTÃO DE PESSOAS E COMPETENCIAS, Inglês Intermediario, Pacote OFFICE COMPLETO, Montagem e Monutenção de Micro e Rede e diversos outros cursos na área. Aprovação em alguns concursos públicos como pode ser observado em meu Linkedin e outras habilidades.</p>
-        
-        <h3 id="principaisHabilidades">Principais habilidades</h3>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Barrisenn Gonçalo</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+        </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+        </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+        </script>
+
+    <script src="https://kit.fontawesome.com/f0e17cbf2f.js" crossorigin="anonymous"></script>
+    <style>
+       /* p {
+            font-family: Lato, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        }
+
+        .foto-perfil {
+            height: 100%;
+            max-width: auto;
+            border-radius: 50%;
+        }
+
+        .icones {
+            padding-left: 5px;
+        }
+
+        .titulosBrancos {
+            text-decoration: underline;
+            text-underline-position: under;
+            padding-bottom: 20px;
+            text-transform: uppercase;
+            font-weight: 700;
+            color: white;
+        }
+
+        .titulosVerdes {
+            text-decoration: underline;
+            text-underline-position: under;
+            padding-bottom: 20px;
+            text-transform: uppercase;
+            font-weight: 700;
+            color: #18bc9c
+        }
+
+        .paragrafoBrancos {
+            color: white !important;
+        }
+
+
+        .jumbotron {
+            margin-bottom: 0px;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        p {
+            color: black !important;
+        }
+
+        .corPrimaria {
+            background-color: #18bc9c;
+        }
+
+        .itemMenu {
+            color: white;
+        } */
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md navbar-light" style="background-color:#687581">
+        <a class="navbar-brand" href="#" style=color:black>Barrisenn Gonçalo</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample04"
+            aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarsExample04">
+            <ul class="navbar-nav mr-auto">
+
+            </ul>
+            <ul class="navbar-nav">
+                <li>
+                    <a href="#projetos" class="nav-link" style=color:white> Projetos</a>
+                </li>
+                <li>
+                    <a href="#sobre-mim" class="nav-link" style=color:white>Sobre mim</a>
+                </li>
+                <li><a href="#principaisHabilidades" class="nav-link" style=color:white>Principais habilidades</a></li>
+                <li>
+                    <a href="#depoimentos" class="nav-link" style=color:white>Depoimentos</a>
+                </li>
+                <li>
+                    <a href="#contato" class="nav-link" style=color:white>Contato</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="jumbotron text-center corPrimaria">
+        <div class="container">
+            <img src="/images/Barrisenn.jpg" class="foto-perfil" width="200px" alt="Responsive image">
+            <p>Foto escolhida por ser recente e trazer a minha pessoa em uma imagem: Paz, amor, humildade e caridade!</p>
+            <h1 class="jumbotron-heading" style="color:black;text-transform: uppercase;"><strong>Barrisenn Gonçalo</strong></h1>
+            <p class="lead" style="color:rgb(157, 255, 0) !important;">Software Developer - Content Creator
+            </p>
+            <p>
+                <a href="#contato" class="btn btn-dark my-2">Contato</a>
+            </p>
+            <a href="https://github.com/Barrisenn"><i style="color:blueviolet" class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/barrisenngon%C3%A7alo/"><i style="color:blueviolet" class="fab fa-linkedin"></i></a>
+            <a href="https://www.instagram.com/barrisennfotografias/"><i style="color:blueviolet" class="fab fa-instagram"></i></a>
+        </div>
+    </section>
+    <!-- Projects -->
+    <div class="album py-5 bg-light " id="projetos">
+        <div class="container">
+            <h2 class="text-center jumbotron-heading titulosVerdes">Projetos</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="card mb-4 box-shadow">
+                        <img class="card-img-top"
+                            data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
+                            alt="Thumbnail [100%x225]" src="https://old.trybe.one/wp-content/uploads/2018/09/images-1.png" data-holder-rendered="true"
+                            style="height: 225px; width: 100%;max-width: 100%; display: block;">
+                        <div class="card-body">
+                            <p class="card-text">Esse é um projeto utilizando o pixels art com todo orientação da familia, TRYBE!
+                            </p>
+                            <ul>
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>JS</li>
+                            </ul>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-sm btn-outline-success">Ver Projeto</button>
+                                    <button type="button" class="btn btn-sm btn-outline-primary">Ver Código<a href="https://github.com/tryber/sd-010-b-project-pixels-art/tree/barrisenn-project-pixels-art" target="_blank" class="hyperlink"><em><strong>GitHub</strong></em></a></button>
+                                </div>
+                                <small class="text-muted">"FUTURO" Projeto Web</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card mb-4 box-shadow">
+                        <img class="card-img-top"
+                            data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
+                            alt="Thumbnail [100%x225]" src="https://3.bp.blogspot.com/--dT-dCtzBrU/Ud_RvzxTnMI/AAAAAAABoys/zerxipNbn9U/s1600/10-samsung-fexible-screen-youm-625x418.jpg" 
+                            style="height: 225px; width: 100%; display: block;">
+                        <div class="card-body">
+                            <p class="card-text">Esse é um projeto que eu irei desenvolver usando todas as tecnologias aprendidas na, TRYBE!
+                            </p>
+                            <ul>
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>JS</li>
+                                <li>Python</li>
+                                <li>NODEjs</li>
+                                <li>REACT</li>
+                            </ul>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-sm btn-outline-success">Ver Projeto</button>
+                                    <button type="button" class="btn btn-sm btn-outline-primary">Ver Código</button>
+                                </div>
+                                <small class="text-muted">Projeto Mobile</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="jumbotron text-center corPrimaria" id="sobre-mim">
+        <div class="container">
+            <h2 class="jumbotron-heading titulosBrancos">Sobre mim</h2>
+            <p class="lead paragrafoBrancos">Brasileiro nascido em 1984, cidade do RJ, capital, e por meu ser Pai militar, mudava de 2 em 2 anos e hoje resido em PE. Desde muito novo me deparei com tecnologia bem remotas atualmente, citando o MS-DOS e Win 3.1. Foram meus primeiros contatos com linhas de comandos e SO. Tenho como objetivo me tornar um desenvolvedor de excelencia atraves dos aprendizados dados pela TRYBE, e também com muito esforço e dedicação,<strong>transformar a vida das pessoas!</strong>Sou formado em Administração com PÓS-GRADUAÇÃO EM GESTÃO DE PESSOAS E COMPETENCIAS, Inglês Intermediario, Pacote OFFICE COMPLETO, Montagem e Monutenção de Micro e Rede e diversos outros cursos na área. Aprovação em alguns concursos públicos como pode ser observado em meu Linkedin e outras habilidades.</p><br>
+
+            <hr>
+
+            <h3 class="jumbotron-heading titulosBrancos">Principais habilidades</h3>
             <ul>
                 <li>Memorização de baralho, números, palavras e outros diversos temas, assuntos e jogos.</li>
                 <li>Comunicação e <strong>trabalho em equipe</strong></li>
@@ -33,10 +200,45 @@
                 <li><strong>Destacando uma das habilidades que mais me orgulho: AMANTE DA FOTOGRAFIA COM ALGUMAS PREMIAÇÕES COMO SEGUEM NOS LINK'S:</strong><a href="https://www.tudocelular.com/novos-produtos/noticias/n149671/fotos-dos-leitores-edicao-285.html" target="_blank" class="hyperlink"><em><strong>TUDOCELULAR1</em></strong></a> 
                 <a href="https://www.tudocelular.com/android/noticias/n159959/fotos-dos-leitores-edicao-317.html" target="_blank" class="hyperlink"><em><strong>TUDOCELULAR2</em></strong></a>
             </ul>
-        
-        <h3 id="interests">Interesses pessoais</h3>
-            <p>Amante da leitura em especifico do funcionamento do cerebro, como aprender a aprender e guardar quaisquer informações a longo prazo. Apaixonado por tecnologia e suas inovações diarias, e assim, sempre me mantendo informado sobre as mesmas para me tornar o melhor profissional que o esforço e a dedicação possam me trazer. Dessa forma conquistei minha vaga como etudante na TRYBE e alcançando mais um objetivo que me trarão excelentes frutos!</p>
-        
-        <p class="descricao">Caso queira saber mais sobre mim, visite: <a href="https://github.com/Barrisenn" target="_blank" class="hyperlink"><em><strong>GitHub</strong></em></a><br><a href="https://www.linkedin.com/in/barrisenngon%C3%A7alo/" target="_blank" class="hyperlink"><em><strong>Linkedin</strong></em></a></p>
-    </body>
+        </div>
+    </section>
+
+    <section Id="depoimentos">
+        <div class="album py-5 bg-light">
+            <div class="container">
+                <h2 class="text-center jumbotron-heading titulosVerdes">Depoimentos</h2>
+                <blockquote class="blockquote text-center">
+                    <p class="mb-0">É um profissional com um foco e determinação sem iguais!</p>
+                    <footer class="blockquote-footer"> Gerente Região Nordeste <cite title="Source Title"> Coca-Cola </cite>
+                    </footer>
+                </blockquote>
+                <blockquote class="blockquote text-center">
+                    <p class="mb-0">Um profissional super focado, dedicado, pontual com seus compromissos e ético.
+                        Interessado e super empolgado na área em que atua e nas demais, o que o torna um profissional
+                        pró-ativo e altamente eficiente.</p>
+                    <footer class="blockquote-footer"> CEO  <cite title="Source Title">Schincariol</cite>
+                    </footer>
+                </blockquote>
+            </div>
+        </div>
+    </section>
+
+    <section Id="contato" class="corPrimaria">
+        <div class="corPrimaria">
+            <div class="container-fluid">
+                <h3 style="padding-top:90px;" class="text-center titulosBrancos">Disponível para oportunidades</h3>
+                <h4 style="padding-bottom:90px;margin-bottom: 0px;color:white;" class="text-center"><a
+                        href="mailto:seuemail@hotmail.com">nuncaparedelutar1984@gmail.com👈</a></h4>
+            </div>
+        </div>
+    </section>
+
+    <footer class="text-center" style="background-color:#2c3e50;padding:0px; margin:0px">
+        <p style="margin:0px;padding-top:15px;padding-bottom:15px;color:white !important">Copyright 2021
+            Barrisenn Gonçalo®
+        </p>
+    </footer>
+
+</body>
+
 </html>
