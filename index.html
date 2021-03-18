@@ -1,244 +1,232 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="apple-touch-icon" sizes="180x180" href="imagens/Barrisenn.jpg" />
+    <link rel="icon" type="image/png" sizes="32x32" href="imagens/Barrisenn.jpg" />
+    <link rel="icon" type="image/png" sizes="16x16" href="imagens/Barrisenn.jpg" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <title>Portfólio</title>
+  </head>
+  <body>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Barrisenn Gonçalo</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
-        </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
-        </script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
-        </script>
+    <div class="container">
 
-    <script src="https://kit.fontawesome.com/f0e17cbf2f.js" crossorigin="anonymous"></script>
-    <style>
-       /* p {
-            font-family: Lato, 'Helvetica Neue', Helvetica, Arial, sans-serif;
-        }
+        <div class="hamburguer">
+          <div class="line" id="line1"></div>
+          <div class="line" id="line2"></div>
+          <div class="line" id="line3"></div>
+          <span>fechar</span>
+        </div>  
 
-        .foto-perfil {
-            height: 100%;
-            max-width: auto;
-            border-radius: 50%;
-        }
+        <header id="home">
+            <div class="img-wrapper">
+                <img src="imagens/bg.jpg" alt="">
+            </div>
+            <div class="banner">
+                <h1>Web Developer & Front End Designer & Back End Designer</h1>
+                <p>Barrisenn Gonçalo De Araújo</p>
+                <button>Saiba mais</button>
+            </div>
+        </header>
 
-        .icones {
-            padding-left: 5px;
-        }
-
-        .titulosBrancos {
-            text-decoration: underline;
-            text-underline-position: under;
-            padding-bottom: 20px;
-            text-transform: uppercase;
-            font-weight: 700;
-            color: white;
-        }
-
-        .titulosVerdes {
-            text-decoration: underline;
-            text-underline-position: under;
-            padding-bottom: 20px;
-            text-transform: uppercase;
-            font-weight: 700;
-            color: #18bc9c
-        }
-
-        .paragrafoBrancos {
-            color: white !important;
-        }
-
-
-        .jumbotron {
-            margin-bottom: 0px;
-        }
-
-        html {
-            scroll-behavior: smooth;
-        }
-
-        p {
-            color: black !important;
-        }
-
-        .corPrimaria {
-            background-color: #18bc9c;
-        }
-
-        .itemMenu {
-            color: white;
-        } */
-    </style>
-</head>
-
-<body>
-    <nav class="navbar navbar-expand-md navbar-light" style="background-color:#687581">
-        <a class="navbar-brand" href="#" style=color:black>Barrisenn Gonçalo</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample04"
-            aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarsExample04">
-            <ul class="navbar-nav mr-auto">
-
+        <aside class="sidebar">
+          <nav>
+            <ul class="menu">
+              <li class="menu-item"><a href="#" class="menu-link">Home</a></li>
+              <li class="menu-item"><a href="#conhecimentos" class="menu-link">Conhecimento</a></li>
+              <li class="menu-item"><a href="#projetos" class="menu-link">Projetos</a></li>
+              <li class="menu-item"><a href="#contato" class="menu-link">Contato</a></li>
+              <li class="menu-item"><a href="#orcamento" class="menu-link">Orçamento</a></li>
             </ul>
-            <ul class="navbar-nav">
-                <li>
-                    <a href="#projetos" class="nav-link" style=color:white> Projetos</a>
-                </li>
-                <li>
-                    <a href="#sobre-mim" class="nav-link" style=color:white>Sobre mim</a>
-                </li>
-                <li><a href="#principaisHabilidades" class="nav-link" style=color:white>Principais habilidades</a></li>
-                <li>
-                    <a href="#depoimentos" class="nav-link" style=color:white>Depoimentos</a>
-                </li>
-                <li>
-                    <a href="#contato" class="nav-link" style=color:white>Contato</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
+          </nav>
+          <div class="social-media">
+            <a href="https://www.linkedin.com/in/barrisenngon%C3%A7alo/"><i style="color:pink" target="_blank" class="fab fa-linkedin"></i></a>
+            <a href="https://www.instagram.com/barrisennfotografias/"><i style="color:pink" target="_blank" class="fab fa-instagram"></i></a>
+            <a href="https://github.com/Barrisenn"><i style="color:pink"  target="_blank" class="fab fa-github"></i></a></li>
+          </div>
+        </aside>
 
-    <section class="jumbotron text-center corPrimaria">
-        <div class="container">
-            <img src="/images/Barrisenn.jpg" class="foto-perfil" width="200px" alt="Responsive image">
-            <p>Foto escolhida por ser recente e trazer a minha pessoa em uma imagem: Paz, amor, humildade e caridade!</p>
-            <h1 class="jumbotron-heading" style="color:black;text-transform: uppercase;"><strong>Barrisenn Gonçalo</strong></h1>
-            <p class="lead" style="color:rgb(157, 255, 0) !important;">Software Developer - Content Creator
-            </p>
+        <section class="sessao-conhecimentos" id="conhecimentos">
+          <div class="sessao-header">
+            <h1>Conhecimentos</h1>
+          </div>
+          <div class="conhecimentos">
+            <div class="conhecimento">
+              <div class="conhecimento-header">
+                <i class="fab fa-html5"></i>
+                <h3>HTML</h3>
+              </div>
+              <div class="conhecimento-text">
+                <p>HTML5 é uma linguagem de marcação para a World Wide Web e é uma tecnologia chave da Internet, originalmente proposto por Opera Software. É a quinta versão da linguagem HTML.</p>
+              </div>
+            </div>
+            <div class="conhecimento">
+              <div class="conhecimento-header">
+                <i class="fab fa-css3-alt"></i>
+                <h3>CSS</h3>
+              </div>
+              <div class="conhecimento-text">
+                <p>CSS3 é a terceira mais nova versão das famosas Cascading Style Sheets, pela qual se define estilos para um projeto web. Com efeitos de transição, imagem, imagem de fundo/background e outros, pode-se criar estilos únicos para seus projetos web, alterando diversos aspectos de design no layout da página.</p>
+              </div>
+            </div>
+            <div class="conhecimento">
+              <div class="conhecimento-header">
+                <i class="fas fa-pencil-alt"></i>
+                <h3>Design</h3>
+              </div>
+              <div class="conhecimento-text">
+                <p>O design [dezaine], desenho industrial, projetismo ou projética é a idealização, criação, desenvolvimento, configuração, concepção, elaboração e especificação de produtos, normalmente produzidos industrialmente ou por meio de sistema de produção em série que demanda padronização dos componentes e desenho normalizado.</p>
+              </div>
+            </div>
+            <div class="conhecimento">
+              <div class="conhecimento-header">
+                <i class="fab fa-js"></i>
+                <h3>Javascript</h3>
+              </div>
+              <div class="conhecimento-text">
+                <p>JavaScript é uma linguagem de programação interpretada estruturada, de script em alto nível com tipagem dinâmica fraca e multiparadigma. Juntamente com HTML e CSS, o JavaScript é uma das três principais tecnologias da World Wide Web.
+                </p>
+              </div>
+            </div>
+            <div class="conhecimento">
+              <div class="conhecimento-header">
+                <i class="fab fa-bootstrap"></i>
+                <h3>Boostrap</h3>
+              </div>
+              <div class="conhecimento-text">
+                <p>Bootstrap é um framework web com código-fonte aberto para desenvolvimento de componentes de interface e front-end para sites e aplicações web usando HTML, CSS e JavaScript, baseado em modelos de design para a tipografia, melhorando a experiência do usuário em um site amigável e responsivo.</p>
+              </div>
+            </div>
+            <div class="conhecimento">
+              <div class="conhecimento-header">
+                <i class="fab fa-github"></i>
+                <h3>Git e GitHub</h3>
+              </div>
+              <div class="conhecimento-text">
+                <p>O Git é um sistema de controle de versão distribuído e amplamente adotado. O Git nasceu e foi tomando espaço dos outros sistemas de controle. Seu criador principal é o mesmo que o do Linux: Linus Torvalds, e ganhou o coração das pessoas que trabalham com open source. GitHub é uma plataforma para gerenciar seu código e criar um ambiente de colaboração entre devs.</p>
+              </div>
+            </div>
+            <div class="conhecimentos-img-wrapper">
+              <img src="imagens/conhecimentos.png" alt="imagem conhecimento">
+            </div>
+          </div>
+        </section>
+
+        <div class="sessao-projetos" id="projetos">
+          <div class="sessao-header">
+            <h1>Projetos</h1>
+          </div>
+          <div class="projetos">
+            <div class="card">
+              <div class="card-img-wrapper">
+                <img src="imagens/proj1.jpg" alt="imagem do projeto ToDo" />
+              </div>
+              <div class="card-info">
+                <h2>ToDo List</h2>
+                <h3>Javascript</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate ducimus vero maxime amet magnam doloribus eos consequatur expedita architecto hic?</p>
+                <button class="btn">Saiba Mais</button>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-img-wrapper">
+                <img src="imagens/proj2.jpg" alt="imagem do projeto Maratona" />
+              </div>
+              <div class="card-info">
+                <h2>Maratona</h2>
+                <h3>HTML, CSS</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, vero aliquam? Pariatur libero voluptas ipsam ullam consectetur ab facilis cumque.</p>
+                <button class="btn">Saiba Mais</button>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-img-wrapper">
+                <img src="imagens/proj3.jpg" alt="imagem do projeto Casa Bela" />
+              </div>
+              <div class="card-info">
+                <h2>Casa Bela</h2>
+                <h3>HTML</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est pariatur soluta doloremque tempore nisi placeat, eveniet voluptate recusandae. Eius, sapiente?</p>
+                <button class="btn">Saiba Mais</button>
+              </div>
+            </div>
+          </div>
+
+        </section>
+
+        <section class="sessao-contato" id="contato">
+          <div class="contato-wrapper">
+            <div class="contato-left"></div>
+            <div class="contato-right">
+              <h1>Contato</h1>
+              <form>
+                <div class="input-group">
+                  <input type="text" class="field" id="nome">
+                  <label for="nome" class="field-label">Nome</label>
+                </div>
+                <div class="input-group">
+                  <input type="text" class="field" id="email">
+                  <label for="email" class="field-label">E-mail</label>
+                </div>
+                <div class="input-group">
+                  <textarea class="field" id="mensagem"></textarea>
+                  <label for="mensagem" class="field-label">Mensagem</label>
+                </div>
+                <button type="submit" class="btn btn-submit">Enviar</button>
+              </form>
+            </div>
+          </div>
+        </section>
+
+        <section class="sessao-orcamento" id="orcamento">
+          <div class="orcamento-wrapper">
+            <h1>Faça um orçamento</h1>
+            <form>
+              <label for="qtde">Qtde de Páginas</label>
+              <input type="number" min="1" name="qtde" id="qtde">
+              <label for="js">Preciso de um script JS</label>
+              <input type="checkbox" name="js" id="js">
+              <label>Layout</label>
+              <div class="group-layout">
+                <div>
+                  <input type="radio" name="layout" id="layout-sim">
+                  <label for="layout-sim">Preciso de um layout</label>
+                </div>
+                <div>
+                  <input type="radio" name="layout" id="layout-nao">
+                  <label for="layout-nao">Já tenho um layout</label>
+                </div>
+              </div>
+              <label for="prazo">Prazo</label>
+              <input type="range" name="prazo" id="prazo" min="1" max="10">
+              <label id="preco">R$ 0,00</label>
+              <button class="btn btn-orcamento" type="submit">Enviar</button>
+            </form>
+          </div>
+        </section>
+
+        <footer>
+          <div class="footer-content">
             <p>
-                <a href="#contato" class="btn btn-dark my-2">Contato</a>
+              Copyright &copy; 2021, BARRISENN GONÇALO - Todos os diretos reservados
             </p>
-            <a href="https://github.com/Barrisenn"><i style="color:blueviolet" class="fab fa-github"></i></a>
-            <a href="https://www.linkedin.com/in/barrisenngon%C3%A7alo/"><i style="color:blueviolet" class="fab fa-linkedin"></i></a>
-            <a href="https://www.instagram.com/barrisennfotografias/"><i style="color:blueviolet" class="fab fa-instagram"></i></a>
-        </div>
-    </section>
-    <!-- Projects -->
-    <div class="album py-5 bg-light " id="projetos">
-        <div class="container">
-            <h2 class="text-center jumbotron-heading titulosVerdes">Projetos</h2>
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="card mb-4 box-shadow">
-                        <img class="card-img-top"
-                            data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
-                            alt="Thumbnail [100%x225]" src="https://old.trybe.one/wp-content/uploads/2018/09/images-1.png" data-holder-rendered="true"
-                            style="height: 225px; width: 100%;max-width: 100%; display: block;">
-                        <div class="card-body">
-                            <p class="card-text">Esse é um projeto utilizando o pixels art com todo orientação da familia, TRYBE!
-                            </p>
-                            <ul>
-                                <li>HTML</li>
-                                <li>CSS</li>
-                                <li>JS</li>
-                            </ul>
-                            <div class="d-flex justify-content-between align-items-center">
-                                <div class="btn-group">
-                                    <button type="button" class="btn btn-sm btn-outline-success">Ver Projeto</button>
-                                    <button type="button" class="btn btn-sm btn-outline-primary">Ver Código<a href="https://github.com/tryber/sd-010-b-project-pixels-art/tree/barrisenn-project-pixels-art" target="_blank" class="hyperlink"><em><strong>GitHub</strong></em></a></button>
-                                </div>
-                                <small class="text-muted">"FUTURO" Projeto Web</small>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="card mb-4 box-shadow">
-                        <img class="card-img-top"
-                            data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
-                            alt="Thumbnail [100%x225]" src="https://3.bp.blogspot.com/--dT-dCtzBrU/Ud_RvzxTnMI/AAAAAAABoys/zerxipNbn9U/s1600/10-samsung-fexible-screen-youm-625x418.jpg" 
-                            style="height: 225px; width: 100%; display: block;">
-                        <div class="card-body">
-                            <p class="card-text">Esse é um projeto que eu irei desenvolver usando todas as tecnologias aprendidas na, TRYBE!
-                            </p>
-                            <ul>
-                                <li>HTML</li>
-                                <li>CSS</li>
-                                <li>JS</li>
-                                <li>Python</li>
-                                <li>NODEjs</li>
-                                <li>REACT</li>
-                            </ul>
-                            <div class="d-flex justify-content-between align-items-center">
-                                <div class="btn-group">
-                                    <button type="button" class="btn btn-sm btn-outline-success">Ver Projeto</button>
-                                    <button type="button" class="btn btn-sm btn-outline-primary">Ver Código</button>
-                                </div>
-                                <small class="text-muted">Projeto Mobile</small>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            <div class="social-list">
+              <ul>
+                <li><a href="https://www.linkedin.com/in/barrisenngon%C3%A7alo/"><i style="color:blueviolet" target="_blank" class="fab fa-linkedin"></i></a></li>
+                <li><a href="https://www.instagram.com/barrisennfotografias/"><i style="color:blueviolet" target="_blank" class="fab fa-instagram"></i></a></li>
+                <li><a href="https://github.com/Barrisenn"><i style="color:blueviolet"  target="_blank" class="fab fa-github"></i></a></li>
+              </ul>
             </div>
-        </div>
+          </div>
+        </footer>
+        <a href="#home" id="link-topo">
+          <i class="fas fa-arrow-up"></i>
+        </a>
     </div>
+   </body>
 
-    <section class="jumbotron text-center corPrimaria" id="sobre-mim">
-        <div class="container">
-            <h2 class="jumbotron-heading titulosBrancos">Sobre mim</h2>
-            <p class="lead paragrafoBrancos">Brasileiro nascido em 1984, cidade do RJ, capital, e por meu ser Pai militar, mudava de 2 em 2 anos e hoje resido em PE. Desde muito novo me deparei com tecnologia bem remotas atualmente, citando o MS-DOS e Win 3.1. Foram meus primeiros contatos com linhas de comandos e SO. Tenho como objetivo me tornar um desenvolvedor de excelencia atraves dos aprendizados dados pela TRYBE, e também com muito esforço e dedicação,<strong>transformar a vida das pessoas!</strong>Sou formado em Administração com PÓS-GRADUAÇÃO EM GESTÃO DE PESSOAS E COMPETENCIAS, Inglês Intermediario, Pacote OFFICE COMPLETO, Montagem e Monutenção de Micro e Rede e diversos outros cursos na área. Aprovação em alguns concursos públicos como pode ser observado em meu Linkedin e outras habilidades.</p><br>
-
-            <hr>
-
-            <h3 class="jumbotron-heading titulosBrancos">Principais habilidades</h3>
-            <ul>
-                <li>Memorização de baralho, números, palavras e outros diversos temas, assuntos e jogos.</li>
-                <li>Comunicação e <strong>trabalho em equipe</strong></li>
-                <li>Facilidade em absorver conhecimentos!</li>
-                <li>Amante de novos desafios e a procura da constante evolução como ser humano</li>
-                <li><strong>Destacando uma das habilidades que mais me orgulho: AMANTE DA FOTOGRAFIA COM ALGUMAS PREMIAÇÕES COMO SEGUEM NOS LINK'S:</strong><a href="https://www.tudocelular.com/novos-produtos/noticias/n149671/fotos-dos-leitores-edicao-285.html" target="_blank" class="hyperlink"><em><strong>TUDOCELULAR1</em></strong></a> 
-                <a href="https://www.tudocelular.com/android/noticias/n159959/fotos-dos-leitores-edicao-317.html" target="_blank" class="hyperlink"><em><strong>TUDOCELULAR2</em></strong></a>
-            </ul>
-        </div>
-    </section>
-
-    <section Id="depoimentos">
-        <div class="album py-5 bg-light">
-            <div class="container">
-                <h2 class="text-center jumbotron-heading titulosVerdes">Depoimentos</h2>
-                <blockquote class="blockquote text-center">
-                    <p class="mb-0">É um profissional com um foco e determinação sem iguais!</p>
-                    <footer class="blockquote-footer"> Gerente Região Nordeste <cite title="Source Title"> Coca-Cola </cite>
-                    </footer>
-                </blockquote>
-                <blockquote class="blockquote text-center">
-                    <p class="mb-0">Um profissional super focado, dedicado, pontual com seus compromissos e ético.
-                        Interessado e super empolgado na área em que atua e nas demais, o que o torna um profissional
-                        pró-ativo e altamente eficiente.</p>
-                    <footer class="blockquote-footer"> CEO  <cite title="Source Title">Schincariol</cite>
-                    </footer>
-                </blockquote>
-            </div>
-        </div>
-    </section>
-
-    <section Id="contato" class="corPrimaria">
-        <div class="corPrimaria">
-            <div class="container-fluid">
-                <h3 style="padding-top:90px;" class="text-center titulosBrancos">Disponível para oportunidades</h3>
-                <h4 style="padding-bottom:90px;margin-bottom: 0px;color:white;" class="text-center"><a
-                        href="mailto:seuemail@hotmail.com">nuncaparedelutar1984@gmail.com👈</a></h4>
-            </div>
-        </div>
-    </section>
-
-    <footer class="text-center" style="background-color:#2c3e50;padding:0px; margin:0px">
-        <p style="margin:0px;padding-top:15px;padding-bottom:15px;color:white !important">Copyright 2021
-            Barrisenn Gonçalo®
-        </p>
-    </footer>
-
-</body>
-
+   <script src="script.js"></script>
 </html>
